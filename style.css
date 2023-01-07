@@ -4,7 +4,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-/* this is banner styles */
+/* This is banner styles */
 .banner{
     background-image: url(../home-work/images/banner/banner1.png);
     width: 100%;
@@ -12,13 +12,10 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 45px;
-    
 }
 .banner-item{
     text-align: right;
-    margin: ;
     padding: 216px 230px 364px 845px ;
-
 }
 .banner-title{
     font-size: 50px;
@@ -30,7 +27,6 @@
     color: #444343;
     font-size: 16px;
     margin-bottom: 30px;
-
 }
 .btn-primary{
     background: #F15B22;
@@ -41,62 +37,61 @@
     font-weight: 600;
     border: none;
 }
-/* main section */
-.main-section{
+
+/* First Section */
+
+.first-section{
     display: flex;
+    margin-top: 80px;
 }
-/* img{
-    width: 530px;
-    height: 650px;
-    margin: 0px 60px;
-} */
-.main-section-item{
-    background: rgb(243, 240, 240);
-    margin: 260px 30px 70px 200px;
-    width: 30%;
+ #first-image-section{
+   margin: 20px 0px 0px 200px;
+} 
+.first-section-item{
+    margin: 250px 30px 70px 100px;
+    width: 25%;
     height: 400px;
     text-align: center;
     justify-content:space-around;
     padding: 25px 25px;
     border-radius: 10px;
 }
-.main-section-title{
+.first-section-title{
+    color:rgb(23, 23, 23);
     font-size: 40px;
     margin-bottom: 24px;
     text-align: left;
 }
-.main-section-description{
+.first-section-description{
     font-size: 16px;
     color: #444343;
     text-align: left;
 }
 .list-description{
-    margin-top: 15px;
+    margin: 15px 0px 0px 0px;
     color: #444343;
     text-align: left;  
 }
-/* last section */
-.last-section{
+
+/* Second Section */
+
+.second-section{
+    margin: 90px 0px 50px 0px;
     background: rgb(255, 255, 255);
     width: 100%;
     height: 300px;
-    max-resolution: 20px 50px;
-    padding: 20px;
 }
-.last-section-title{
+.second-section-title{
+    color:rgb(33, 33, 33);
     font-size: 40px;
     text-align: center;
 }
 .skill-item{
-    margin-top: 50px;
+    margin: 30px 160px 50px 45px;
     display: flex;
     justify-content: space-around;
-    padding: 0px 100px;
+    padding: 20px 40px 20px 120px;
     text-align: center;
-}
-.image-item{
-    width: 400px;
-    height: 450px;
 }
 .skill-title{
     font-size: 20px;
@@ -106,18 +101,23 @@
     color: #737272;
     font-size: 16px;
 }
-/* final section */
-.final-section{
-    justify-content: center;
-    margin: 40px 250px;
-    background-image: url("../home-work/images/gradient3.png"), url("../home-work/images/watch.png");
-    width: 60%;
-    height: 200px;
+
+/* Third Section */
+
+.third-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px 250px 40px 245px;
+    background-image: url("../home-work/images/gradient3.png"),
+    url("../home-work/images/watch.png");
+    width: 66%;
+    height: 250px;
     border-radius: 5px;
     margin-bottom: 40px;
 }
-.final-section-title{
-    padding: 25px 15px 10px 30px;
+.third-section-title{
+    padding: 50px 15px 10px 50px;
     color: white;
     font-size: 35px;
 }
@@ -129,51 +129,55 @@
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    margin-left: 30px;
+    margin: 15px 30px 30px 50px;
 }
-/* Here is footer */
-.footer{
+
+/* Here is Footer */
+
+footer{
     display: flex;
     justify-content: space-around;
-    background: black;
+    background: #151414;
     width: 100%;
-    height: 350px;
-    margin-top: 90px;
-    
+    height: 430px;
+    margin-top: 100px;
 }
 .footer-section{
     width: 50%;
     margin: 40px;
-    padding: 50px;
+    padding: 50px 50px 50px 100px;
 }
 .footer-title{
-    color: white;
-    font-size: 40px;
+    color: rgb(210, 210, 210);
+    font-size: 45px;
     margin: 5px;
 }
 .footer-description{
-    color: white;
+    color: rgb(210, 210, 210);
     font-size: 16px;
-    margin: 5px;
+    margin: 10px;
 }
 .footer-icons{
-
+    margin: 10px 10px 10px 13px;
+    padding-top: 20px;
 }
 .footer-section-two{
     width: 50%;
-    margin: 40px;
-    padding: 50px;
+    margin: 50px 0px 0px 50px;
+    padding: 60px 50px 50px 200px;
 }
 .footer-title-two{
-    color: white;
+    color: rgb(210, 210, 210);
     font: 30px;
-    margin-bottom: 5px;
+    margin:5px 5px 20px 5px;
+    font-weight: 400;
 }
 .input-email{
+    font-size: 16px;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 2px solid rgb(255, 255, 255);
     padding: 10px 15px;
-    background-color: black;
+    background: #151414;
 }
 .btn-primary-three{
         color: #F15B22;
@@ -184,5 +188,4 @@
         border: none;
         border-radius: 5px;
         margin: 15px;
-    }
 }
